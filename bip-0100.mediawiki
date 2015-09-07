@@ -18,7 +18,7 @@ Replace static 1M block size hard limit with a hard limit that floats between 1M
 # Execute a hard fork network upgrade within safety rails, gathering data and experience for future upgrades.
 # Contain checks-and-balances that users must opt into, to enable system activation and growth.
 # Default growth rate of +1.09% per 2 weeks = +32.5% p.a. = +100% per 2.5 years.
-# Validated growth: a safe / large majority (60% / 80%) is required to deviate from the default value a little / a lot.
+# Validated growth: a safe / large majority (60% / 80%) is required to deviate from the default value a little / a lot (60% can enforce growth rate of 51% p.a. in agreement with [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth], while 80% can enforce 20% adjustment steps per 2 weeks).
 
 ==Specification==
 
