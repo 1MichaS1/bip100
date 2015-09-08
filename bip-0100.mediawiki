@@ -17,8 +17,8 @@ Replace static 1M block size hard limit with a hard limit that floats between 1M
 # Eliminate 1M limit as impediment to adoption.
 # Execute a hard fork network upgrade within safety rails, gathering data and experience for future upgrades.
 # Contain checks-and-balances that users must opt into, to enable system activation and growth.
-# Default growth rate of +1.09% per 2 weeks = +32.5% p.a. = +100% per 2.5 years.
-# Validated growth: a safe / large majority (60% / 80%) is required to deviate from the default value a little / a lot<br>(60% can enforce growth rate of 51% p.a. in agreement with [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth], while 80% can enforce 20% adjustment steps per 2 weeks).
+# Default growth rate of +1.09% per 2 weeks = +32.5% p.a. = +100% per 2.5 years, to account for technological progress in internet bandwidth and storage costs. In the presence of too many undecided/passive miners, the system should at least partly grow along with technological advances, to avoid a deadlock and a change of the system to the worse. Note that actual long-term growth of internet bandwidth is more in the area of 50% p.a. acc. to [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth]
+# Validated growth: a safe / large majority (60% / 80%) is required to deviate from the default growth rate a little / a lot<br>(60% of miners can enforce growth rate of 51% p.a. in agreement with [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth] or a decrease by 34% p.a., while 80% can enforce huge 20% adjustment steps per 2 weeks to be able to react to unforeseen leaps in adoption rates).
 
 ==Specification==
 
