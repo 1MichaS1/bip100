@@ -18,7 +18,7 @@ Replace static 1M block size hard limit with a hard limit that floats between 1M
 # Execute a hard fork network upgrade within safety rails, gathering data and experience for future upgrades.
 # Contain checks-and-balances that users must opt into, to enable system activation and growth.
 # Default growth rate of +1.09% per 2 weeks = +32.5% p.a. = +100% per 2.5 years, to account for technological progress in internet bandwidth and storage costs. In the presence of too many undecided/passive miners, the system should at least partly grow along with technological advances, to avoid a deadlock and a change of the system to the worse. Note that actual long-term growth of internet bandwidth is more in the area of 50% p.a. acc. to [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth]
-# Validated growth: a safe / large majority (60% / 80%) is required to deviate from the default growth rate a little / a lot<br>(60% of miners can enforce growth rate of 51% p.a. in agreement with [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth] or a decrease by 34% p.a., while 80% can enforce huge 20% adjustment steps per 2 weeks to be able to react to unforeseen leaps in adoption rates).
+# Validated growth: a safe / large majority (60% / 80%) is required to deviate from the default growth rate a little / a lot<br>(60% of miners can enforce growth rate of 51% p.a. in agreement with [http://www.nngroup.com/articles/law-of-bandwidth Nielssen's law of internet bandwidth] or a decrease by 34% p.a., while 80% can enforce huge 10% adjustment steps per 2 weeks to be able to react to unforeseen leaps in adoption rates).
 
 ==Specification==
 
@@ -32,7 +32,7 @@ Replace static 1M block size hard limit with a hard limit that floats between 1M
 ## Calculation:
 ### Absent/invalid votes are counted as votes for the default hardLimit increase. Out of range votes are counted as the nearest in-range value.
 ### Votes with 60% majority are limited to +/- 1.6% of the current hardLimit.
-### Votes with 80% majority are limited to +/- 20% of the current hardLimit.
+### Votes with 80% majority are limited to +/- 10% of the current hardLimit.
 ### Sort the votes from the previous 2,016 blocks from lowest to highest.
 ### The 1st raise value is defined as the 807th lowest vote from the sorted list of 2,016 votes (40th percentile).
 ### The 1st lower value is defined as the 1210th lowest vote from the sorted list of 2,016 votes (60th percentile).
