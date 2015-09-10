@@ -10,5 +10,5 @@ Files relating to Bitcoin Improvement Proposal (BIP) 100 of Jeff Garzik as of 3 
    (BIP-100 has no consequence for 60% majority), i.e. +51% or -34% per year.
 
 3. If there is no 60% or 80% majority vote for a block size limit adjustment,
-   then a default increase of +1.09% per 2016 blocks (~2 weeks) takes place
-   (+32.5% per year, factor x2 per 2.5 years).
+   then a default increase of +1.09% per 2016 blocks (~2 weeks) takes place,
+   i.e. +32.5% per year = factor x2 per 2.5 years.
