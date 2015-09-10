@@ -6,7 +6,8 @@ Files relating to Bitcoin Improvement Proposal (BIP) 100 of Jeff Garzik as of 3 
    not +/-20% like BIP-100.
 
 2. 60% miner vote majority can cause a max. adjustment step of +/-1.6%.
-   BIP100 has no consequence for 60% majority.
+   BIP-100 has no consequence for 60% majority.
 
-3. If there are no special votes, then a default increase of +1.09%
-   per 2016 blocks (32.5% p.a.) takes place.
+3. If there is no 60% or 80% majority vote for a block size limit adjustment,
+   then a default increase of +1.09% per 2016 blocks (~2 weeks) takes place
+   (+32.5% p.a.).
