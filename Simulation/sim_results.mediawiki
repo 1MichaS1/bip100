@@ -17,7 +17,7 @@ Blue dashed line shows BSL evolution in case of no vote. Red line shows BSL in t
 <br>
 
 <img src=https://cloud.githubusercontent.com/assets/14133304/9777152/d4ea6db6-5760-11e5-981f-96ff8fde903c.png></img><br>
-Yearly growh rates since inception.
+Yearly growth rates since inception.
 
 ----
 
@@ -32,7 +32,7 @@ Blue dashed line shows BSL evolution in case of no vote. Red line shows BSL in t
 <br>
 
 <img src=https://cloud.githubusercontent.com/assets/14133304/9777205/86440c66-5761-11e5-841f-165c94c89bb3.png></img><br>
-Yearly growh rates since inception.
+Yearly growth rates since inception.
 
 ----
 
@@ -53,5 +53,5 @@ Blue dashed line shows BSL evolution in case of no vote. Red line shows BSL in t
 <br>
 
 <img src=https://cloud.githubusercontent.com/assets/14133304/9777396/36561ec6-5764-11e5-9e58-a04530e3c114.png></img><br>
-Yearly growh rates since inception.
+Yearly growth rates since inception.
 
