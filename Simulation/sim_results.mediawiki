@@ -3,8 +3,8 @@
 ===Simulation 1 - New BIP===
 Settings: Default parameterization of this BIP, i.e.:
 * Without vote, the 2-weekly default up-step is '''+1.09%''' (yielding +32.5% p.a.)
-* With a '''60%''' vote majority, 2-weekly up/down-steps of up to '''+/-1.6%''' can be achieved (-34/+51% p.a.)
-* With a '''80%''' vote majority, 2-weekly up/down-steps of up to '''+/-10%''' can be achieved (x0.06/x12 p.a.)
+* With a '''60%''' vote majority, 2-weekly up/down-steps of up to '''+/-1.6%''' can be achieved (+51%/-34 p.a.)
+* With a '''80%''' vote majority, 2-weekly up/down-steps of up to '''+/-10%''' can be achieved (x12/x0.06 p.a.)
 
 The following simulation was carried out with mostly "default +1.09% adjustments", but some regularly occurring +1.6% or +10% adjustments, occurrence rate see histrogram:
 
@@ -40,7 +40,7 @@ Yearly growth rates since inception.
 Settings: Parameterization like BIP100 original, with no BSL change by default:
 * Without vote, the 2-weekly up-step is '''+0.0%'''
 * With a '''60%''' vote majority, 2-weekly up/down-steps of up to '''+/-0.0%''' can be achieved
-* With a '''80%''' vote majority, 2-weekly up/down-steps of up to '''+/-20%''' can be achieved (x0.003/x114 p.a.)
+* With a '''80%''' vote majority, 2-weekly up/down-steps of up to '''+/-20%''' can be achieved (x114/x0.003 p.a.)
 
 The following simulation was carried out with mostly "default 0.0% adjustments", but some regularly occurring +20% adjustments, see histrogram:
 
