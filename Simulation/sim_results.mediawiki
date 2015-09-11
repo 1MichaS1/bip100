@@ -1,7 +1,7 @@
 ==Simulation results==
 
 ===Simulation 1 - New BIP===
-Settings: Default parameterizstion of this BIP, i.e.:
+Settings: Default parameterization of this BIP, i.e.:
 * Without vote, the 2-weekly default up-step is '''+1.09%''' (yielding +32.5% p.a.)
 * With a '''60%''' vote majority, 2-weekly up/down-steps of up to '''+/-1.6%''' can be achieved (-34/+51% p.a.)
 * With a '''80%''' vote majority, 2-weekly up/down-steps of up to '''+/-10%''' can be achieved (x0.06/x12 p.a.)
