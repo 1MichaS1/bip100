@@ -44,6 +44,7 @@ Replace static 1M block size hard limit with a hard limit that floats between 1M
 ### If the 1st lower value is lower than tmp, then tmp becomes the 1st lower value, but respecting the contraint of the 60% majority vote.
 ### If the 2nd lower value is lower than tmp, then tmp becomes the 2nd lower value, but respecting the contraint of the 80% majority vote.
 ### The new hardLimit becomes tmp.
+# For the sake of implementation, the steps of +1.09%, +1.6%, -1.6%, +10%, -10% are proposed to be realized by applying the factors 2^(2/128), 2^(3/128), 2^(-3/128), 2^(18/128), 2^(-18/128). This corresponds, to be more precise, to step increments of ca. +1.08893%, +1.63783%, -1.61144%, +10.23826%, -9.28739%, corresponding to yearly changes of +32.52%, +52.56%, -34.45%, factor x12.6 and factor 0.0793, respectively
 
 ==Deployment==
 
