@@ -1,4 +1,4 @@
-==Simulation results==
+==Simulation Results==
 
 ===Simulation 1 - New BIP===
 Settings: Default parameterization of this BIP, i.e.:
